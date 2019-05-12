@@ -2,7 +2,7 @@
 # https://leetcode.com/problems/median-of-two-sorted-arrays/
 # Explaination: https://www.youtube.com/watch?v=LPFhl65R7ww&t=1013s
 class Solution:
-    def findMedianSortedArrays(self, nums1: List[int], nums2: List[int]) -> float:
+    def findMedianSortedArrays(self, nums1: list[int], nums2: list[int]) -> float:
         l1 = len(nums1)
         l2 = len(nums2)
         lt = l1 + l2
@@ -13,7 +13,7 @@ class Solution:
         return findMedianSortedArrays(nums1, nums2)
         
             
-def findMedianSortedArrays(nums1: List[int], nums2: List[int]) -> float:
+def findMedianSortedArrays(nums1: list[int], nums2: list[int]) -> float:
     l1 = len(nums1)
     l2 = len(nums2)
     lt = l1 + l2
