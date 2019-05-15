@@ -1,5 +1,8 @@
 # day 05 2019-05-14 Tue
 # 8. String to Integer (atoi)
+# This is a copy from discussion.
+# Through this piece of code, I learned that this problem can be solved with graph.
+
 class Solution(object):
     def myAtoi(self, str):
         """
