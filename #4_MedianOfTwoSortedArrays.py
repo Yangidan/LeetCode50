@@ -1,6 +1,7 @@
 # day 02 2019-05-11 Sat
 # https://leetcode.com/problems/median-of-two-sorted-arrays/
 # Explaination: https://www.youtube.com/watch?v=LPFhl65R7ww&t=1013s
+
 class Solution:
     def findMedianSortedArrays(self, nums1: list[int], nums2: list[int]) -> float:
         l1 = len(nums1)
