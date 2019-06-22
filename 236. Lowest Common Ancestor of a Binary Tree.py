@@ -52,13 +52,9 @@ class Solution(object):
         return None
 
 
-#         return self._find(root, p, q)
-        
-#     def _find(self, root, p, q):
-#         """找到p或q或最近公共祖先"""
 #         if root == None or root.val == q.val or root.val == p.val:
 #             return root
         
-#         left  = self._find(root.left,  p, q)
-#         right = self._find(root.right, p, q)
+#         left  = self.lowestCommonAncestor(root.left,  p, q)
+#         right = self.lowestCommonAncestor(root.right, p, q)
 #         return left if not right else (right if not left else root)
